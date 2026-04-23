@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Grade 10 Classmates System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.11.1/core.css">
+        <script type="module" src="https://pyscript.net/releases/2025.11.1/core.js"></script>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                padding: 50px;
+            }
+            
+            .container {
+                background-color: white;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Grade 10 Classmates System</h2>
+            <p>Add and view your classmates easily</p>
+            <div>
+                <input type="text" id="nameInput" placeholder="Name">
+                <input type="text" id="sectionInput" placeholder="Section">
+                <input type="text" id="subjectInput" placeholder="Favorite Subject">
+                <br>
+                <button py-click="add_classmate" style="background-color: #00800bfc; color: white; border: none; border-radius: 4px;">Add Classmate</button>
+                <button py-click="show_list" style="background-color: #1a91d1; color: white; border: none; border-radius: 4px;">Show List</button>
+            </div>
+
+            <div id="listArea">
+                <h3>📋 Classmate List</h3>
+                <p id="message"></p>
+            </div>
+        </div>
+        
+        <py-script src="main.py"></py-script>
+    </body>
+</html>
