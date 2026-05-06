@@ -9,8 +9,8 @@ class Classmate:
     def introduce(self):
         return f"Hi! I name is {self.name}. I am from {self.section}. My most favorite subject is {self.favorite_subject}."
 
-subjects = ["math", "science", "philosopht", "english", "social studies", "Filipino"]
-sections = ["Amethyst", "Sapphire", "Liberty", "Emerald", "Diamond"]
+subjects = ["math", "science", "philosophy", "english", "social studies", "filipino"]
+sections = ["Emerald"]
 
 names = [
     "abayon",
@@ -41,31 +41,31 @@ names = [
 ]
 
 classmates_list = [
-    Classmate("abayon", "Amethyst", "math"),
-    Classmate("antes", "Sapphire", "science"),
-    Classmate("apostol", "Liberty", "philosopht"),
+    Classmate("abayon", "Emerald", "math"),
+    Classmate("antes", "Emerald", "science"),
+    Classmate("apostol", "Emerald", "philosophy"),
     Classmate("banaag", "Emerald", "english"),
-    Classmate("barrientos", "Diamond", "social studies"),
-    Classmate("casal", "Amethyst", "Filipino"),
-    Classmate("coeli", "Sapphire", "math"),
-    Classmate("david", "Liberty", "science"),
-    Classmate("de mata", "Emerald", "philosopht"),
-    Classmate("dela cruz f", "Diamond", "english"),
-    Classmate("dela cruz j", "Amethyst", "social studies"),
-    Classmate("dellejero", "Sapphire", "Filipino"),
-    Classmate("fukuda", "Liberty", "math"),
+    Classmate("barrientos", "Emerald", "social studies"),
+    Classmate("casal", "Emerald", "filipino"),
+    Classmate("coeli", "Emerald", "math"),
+    Classmate("david", "Emerald", "science"),
+    Classmate("de mata", "Emerald", "philosophy"),
+    Classmate("dela cruz f", "Emerald", "english"),
+    Classmate("dela cruz j", "Emerald", "social studies"),
+    Classmate("dellejero", "Emerald", "filipino"),
+    Classmate("fukuda", "Emerald", "math"),
     Classmate("gozum", "Emerald", "science"),
-    Classmate("ibay", "Diamond", "philosopht"),
-    Classmate("lim", "Amethyst", "english"),
-    Classmate("lozano", "Sapphire", "social studies"),
-    Classmate("mamauag", "Liberty", "Filipino"),
+    Classmate("ibay", "Emerald", "philosophy"),
+    Classmate("lim", "Emerald", "english"),
+    Classmate("lozano", "Emerald", "social studies"),
+    Classmate("mamauag", "Emerald", "filipino"),
     Classmate("navarro", "Emerald", "math"),
-    Classmate("precones", "Diamond", "science"),
-    Classmate("ramos", "Amethyst", "philosopht"),
-    Classmate("sidhu", "Sapphire", "english"),
-    Classmate("tiu", "Liberty", "social studies"),
-    Classmate("villamayor", "Emerald", "Filipino"),
-    Classmate("zaragoza", "Diamond", "math")
+    Classmate("precones", "Emerald", "science"),
+    Classmate("ramos", "Emerald", "philosophy"),
+    Classmate("sidhu", "Emerald", "english"),
+    Classmate("tiu", "Emerald", "social studies"),
+    Classmate("villamayor", "Emerald", "filipino"),
+    Classmate("zaragoza", "Emerald", "math")
 ]
 
 def show_list(event):
